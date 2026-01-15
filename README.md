@@ -42,3 +42,62 @@ The project follows a standard ML pipeline:
 - Seaborn
 - Scikit-learn
 - Jupyter Notebook
+📊 Dataset
+
+The dataset consists of historical weather parameters such as:
+
+Temperature
+
+Humidity
+
+Wind Speed
+
+Rainfall
+
+Publicly available weather datasets are used for training and testing.
+
+📈 Models Used
+
+Logistic Regression
+
+Decision Tree
+
+Random Forest
+
+Each model is evaluated using:
+
+Accuracy
+
+Precision
+
+Recall
+
+F1-score
+
+✅ Results
+
+The models successfully learned weather patterns from historical data.
+
+Random Forest achieved better performance compared to other models.
+
+Evaluation metrics are used instead of accuracy alone to avoid biased results.
+
+📌 Conclusion
+
+This project demonstrates how machine learning techniques can be applied to real-world weather forecasting problems.
+The results show that ML models can effectively predict rainfall when trained with quality data and proper preprocessing.
+
+🔮 Future Enhancements
+
+Use deep learning models (LSTM) for time-series prediction
+
+Include real-time weather data APIs
+
+Hyperparameter tuning for better accuracy
+
+Deploy the model using Flask or Streamlit
+
+🤝 Contribution
+
+Contributions are welcome!
+Feel free to fork the repository, raise issues, and submit pull requests.
